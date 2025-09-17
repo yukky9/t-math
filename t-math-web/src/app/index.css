@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: url("https://life.lfny.org/wp-content/uploads/2020/08/shutterstock_733632979.jpg");
+    backdrop-filter: blur(10px);
+}
+
+:root,
+#root,
+#docs-root{
+    --dark-gold: rgba(140, 116, 26, 1);
+    --yellow: rgba(248, 216, 28, 1);
+    --d-yellow: rgba(248, 216, 28, 0.7);
+    --light-yellow: rgba(248, 217, 62, 1);
+    --light-body: rgba(188, 178, 128, 1);
+    --light-grey: rgba(204, 202, 195, 1);
+    --dark-blue: rgba(44, 56, 68, 1);
+    --d-blue: rgba(73, 135, 247, 0.5);
+    --blue: rgba(73, 135, 247, 1);
+    --grey: rgba(204, 202, 195, 0.5);
+}
+
+input::file-selector-button{
+    display: none;
+}
